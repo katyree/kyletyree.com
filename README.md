@@ -19,7 +19,8 @@ The Python server does not process `_redirects`. To verify Pages routing, run `n
 - `index.html`: landing-page copy and layout.
 - `assets/site.css` and `assets/site.js`: landing-page styles and mobile navigation.
 - `assets/kyle-tyree.png`: owner-supplied profile photo, displayed with CSS cropping.
-- `assets/demo-roofing.svg` and `assets/demo-restaurant.jpg`: preview artwork copied from the selected demos.
+- `assets/cover-*-v1.webp`: matching painted portfolio covers for roofing, café, and restaurant. Generated PNG originals are kept in the task outputs; WebP assets retain their 1536 × 1024 dimensions.
+- `assets/demo-roofing.svg` and `assets/demo-restaurant.jpg`: retained artwork from the earlier covers.
 - `_redirects`: 34 permanent, exact page mappings from the two legacy demo routes to their matching extracted subdomains.
 - `demos/home-services/`: home, services, about, service area, and estimate form.
 - `demos/cafe/`: home, menu, about, visit, and contact form.
