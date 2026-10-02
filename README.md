@@ -35,6 +35,8 @@ Cloudflare Pages project `kyletyree-com` is connected to `katyree/kyletyree.com`
 
 A push to `main` publishes the site through the existing Git integration. Git operations and publishing require the owner's explicit instruction. Check the Pages deployment status and repeat the relevant checks on the live domain after publishing.
 
+When changing `assets/site.css`, update its `?v=` value in both `index.html` and `service-details.html`. A returning browser retained the previous stylesheet after the October 1 deployment; a new versioned URL made it load the updated CSS. Verify computed styles on the custom domain as well as the deployment URL.
+
 ## Service terms and contact
 
 Published scope, pricing, payments, ongoing care, and handoff terms are in `service-details.html`. Keep the landing-page summaries consistent with that page.
@@ -55,6 +57,6 @@ The landing page currently uses the existing Gmail address and phone number, wit
 
 ## Portfolio update verification
 
-On October 1, 2026, the Pages local runtime parsed all 34 redirect rules. Each route returned 301 with its matching HTTPS destination, both without a query and with `?demo=synthetic&check=1`. All 34 local references across the landing and service pages resolved. The 13 legacy demo/service files remained byte-for-byte unchanged.
+On October 1, 2026, the Pages local runtime parsed all 34 redirect rules. Each route returned 301 with its matching HTTPS destination, both without a query and with `?demo=synthetic&check=1`. All 34 local references across the landing and service pages resolved. The 12 legacy demo files remained byte-for-byte unchanged; the service page changed only its stylesheet URL version.
 
 The landing page was inspected at desktop and 390-pixel mobile widths, including card alignment, mobile navigation, FAQs, and the existing theme toggle. The three existing JavaScript files passed `node --check`. No real form, email, text, or phone submission was made. These focused checks are not a performance benchmark or comprehensive accessibility audit.
