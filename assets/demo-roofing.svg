@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 960" fill="none"><defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#c8d3c6"/><stop offset="1" stop-color="#e8dfc7"/></linearGradient>
+    <linearGradient id="roof" x2=".4" y2="1"><stop stop-color="#536052"/><stop offset="1" stop-color="#202e2a"/></linearGradient>
+    <linearGradient id="wall" x2="1" y2="1"><stop stop-color="#ebe8d6"/><stop offset="1" stop-color="#c5c5b3"/></linearGradient>
+    <pattern id="shingles" width="48" height="28" patternUnits="userSpaceOnUse"><path d="M0 0h48M0 14h48M12 0v14M36 14v14" stroke="#ffffff" stroke-opacity=".12" stroke-width="1.2"/></pattern>
+    <pattern id="siding" width="12" height="20" patternUnits="userSpaceOnUse"><path d="M0 20h12" stroke="#929989" stroke-opacity=".3"/></pattern>
+    <pattern id="grass" width="42" height="28" patternUnits="userSpaceOnUse"><path d="m4 25 3-9m0 9 4-5m23-8 3-6" stroke="#fff" stroke-opacity=".06"/></pattern>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".065"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <g id="pine"><path d="M0 0 50-150 100 0H0Zm12-55 38-125 38 125H12Zm12-62 26-113 26 113H24Z" fill="currentColor"/><path d="M47-22h7v73h-7z" fill="#465444"/></g>
+    <g id="window"><path fill="#e8e7d8" d="M-8-8h104v130H-8z"/><path fill="#314b49" d="M0 0h88v114H0z"/><path fill="#7d9791" d="M5 5h78v50H5z"/><path fill="#496661" d="M5 62h78v46H5z"/><path d="M44 0v114M0 58h88" stroke="#e8e7d8" stroke-width="7"/><path d="M-13 119h114" stroke="#acae9e" stroke-width="8"/></g>
+    </defs>
+    <path fill="url(#sky)" d="M0 0h1100v960H0z"/>
+    <circle cx="835" cy="180" r="96" fill="#f3d696" opacity=".9"/>
+    <path d="m-90 480 280-255 117 97 121-161 199 219 157-131 265 255Z" fill="#849286" opacity=".28"/>
+    <path d="m-60 488 225-173 196 154 173-139 248 170 191-193 220 184v235H-60Z" fill="#687d6a" opacity=".35"/>
+    <path d="M0 539c182-104 309-77 502-21s327-78 598-1v443H0Z" fill="#72816a"/>
+    <g color="#405c4a"><use href="#pine" x="44" y="564"/><use href="#pine" x="-60" y="605" transform="scale(1.3)"/><use href="#pine" x="971" y="580"/></g>
+    <g color="#536a50"><use href="#pine" x="887" y="548"/><use href="#pine" x="122" y="523"/><use href="#pine" x="1058" y="535"/></g>
+    <path d="M0 709c221-83 419-11 602-2s353-14 498-72v325H0Z" fill="#596e4d"/>
+    <path d="M0 709c221-83 419-11 602-2s353-14 498-72v325H0Z" fill="url(#grass)"/>
+    <ellipse cx="554" cy="767" rx="443" ry="55" fill="#263b2c" opacity=".18"/>
+    <!-- Main volume, intentionally roof-led -->
+    <path d="m205 471 664-9v281l-391 64-273-101Z" fill="url(#wall)"/>
+    <path d="m205 471 273 95v241l-273-101Z" fill="#bfc4b1"/>
+    <path d="m478 566 391-104v281l-391 64Z" fill="#ebe8d6"/>
+    <path d="m478 566 391-104v281l-391 64Z" fill="url(#siding)"/>
+    <path d="m151 486 231-273 443 53 140 225-496 103Z" fill="url(#roof)"/>
+    <path d="m151 486 231-273 443 53 140 225-496 103Z" fill="url(#shingles)"/>
+    <path d="m382 213 443 53 140 225-496 103 175-302" fill="url(#roof)"/>
+    <path d="m382 213 443 53 140 225-496 103 175-302" fill="url(#shingles)"/>
+    <path d="m151 486 318 108 496-103" stroke="#e8e5d6" stroke-width="14"/>
+    <path d="m151 494 318 108 496-103" stroke="#546250" stroke-width="7"/>
+    <path d="m382 213 443 53" stroke="#758373" stroke-width="6"/>
+    <path d="m205 476 174-208 86 300Z" fill="#ebe8d6"/>
+    <path d="m205 476 174-208 86 300Z" fill="url(#siding)"/>
+    <path d="m190 485 190-236 99 327" stroke="#e9e6d9" stroke-width="16"/>
+    <path d="m329 388 58 19v60l-58-18Z" fill="#3f5e52"/>
+    <path d="m340 404 35 11m-35 0 35 11m-35 0 35 11" stroke="#84988a" stroke-width="3"/>
+    <path d="m720 238 0-91 52 8v89" fill="#a08a70"/><path d="m720 147 30-15 52 8-30 15" fill="#c5b899"/><path d="m772 155 30-15v123l-30-19" fill="#7e7965"/>
+    <g transform="translate(236 531) skewY(20) scale(.7 .9)"><use href="#window"/></g><g transform="translate(361 571) skewY(20) scale(.7 .9)"><use href="#window"/></g>
+    <g transform="translate(547 589) skewY(-13) scale(.8 .95)"><use href="#window"/></g><g transform="translate(764 539) skewY(-13) scale(.8 .95)"><use href="#window"/></g>
+    <path d="m657 601 60-14v153l-60 13Z" fill="#9b5739"/><path d="m668 617 35-8v89l-35 8Z" fill="#744933"/><ellipse cx="704" cy="694" rx="3" ry="4" fill="#e6bf72"/>
+    <path d="m629 754 117-23 39 20-133 28Z" fill="#c2bb9f"/><path d="m652 779 133-28v12l-133 28Z" fill="#969b83"/>
+    <path d="m652 791 133-28 268 197H743Z" fill="#c5bb9e"/>
+    <path d="m652 791 133-28 268 197H743Z" fill="#e4d7b9" opacity=".2"/>
+    <path d="m181 713 280 102 144-29" stroke="#8b9877" stroke-width="11"/>
+    <g fill="#2f5038"><ellipse cx="222" cy="711" rx="57" ry="31"/><ellipse cx="283" cy="739" rx="49" ry="29"/><ellipse cx="395" cy="770" rx="63" ry="32"/><ellipse cx="537" cy="772" rx="58" ry="28"/><ellipse cx="836" cy="743" rx="72" ry="29"/></g>
+    <g fill="#b9a56a"><circle cx="211" cy="700" r="3"/><circle cx="245" cy="714" r="3"/><circle cx="380" cy="758" r="3"/><circle cx="418" cy="766" r="3"/><circle cx="840" cy="729" r="3"/></g>
+    <path d="M0 845c129-48 241-41 353-8l-42 123H0Z" fill="#4a6144"/>
+    <g color="#2e4b39" transform="translate(-50 110) scale(1.7)"><use href="#pine" x="0" y="490"/></g>
+    <path fill="#d7d2b9" opacity=".05" filter="url(#grain)" d="M0 0h1100v960H0z"/>
+    </svg>

@@ -1,0 +1,36 @@
+# Permanent redirects for the extracted demos. Keep legacy files until live verification.
+# Exact page mappings only; destinations omit queries and fragments so browsers can retain them.
+/demos/home-services https://home-services.kyletyree.com/ 301
+/demos/home-services/ https://home-services.kyletyree.com/ 301
+/demos/home-services/index.html https://home-services.kyletyree.com/ 301
+/demos/home-services/index https://home-services.kyletyree.com/ 301
+/demos/home-services/index/ https://home-services.kyletyree.com/ 301
+/demos/home-services/about.html https://home-services.kyletyree.com/about 301
+/demos/home-services/about https://home-services.kyletyree.com/about 301
+/demos/home-services/about/ https://home-services.kyletyree.com/about 301
+/demos/home-services/contact.html https://home-services.kyletyree.com/contact 301
+/demos/home-services/contact https://home-services.kyletyree.com/contact 301
+/demos/home-services/contact/ https://home-services.kyletyree.com/contact 301
+/demos/home-services/service-area.html https://home-services.kyletyree.com/service-area 301
+/demos/home-services/service-area https://home-services.kyletyree.com/service-area 301
+/demos/home-services/service-area/ https://home-services.kyletyree.com/service-area 301
+/demos/home-services/services.html https://home-services.kyletyree.com/services 301
+/demos/home-services/services https://home-services.kyletyree.com/services 301
+/demos/home-services/services/ https://home-services.kyletyree.com/services 301
+/demos/cafe https://cafe.kyletyree.com/ 301
+/demos/cafe/ https://cafe.kyletyree.com/ 301
+/demos/cafe/index.html https://cafe.kyletyree.com/ 301
+/demos/cafe/index https://cafe.kyletyree.com/ 301
+/demos/cafe/index/ https://cafe.kyletyree.com/ 301
+/demos/cafe/about.html https://cafe.kyletyree.com/about 301
+/demos/cafe/about https://cafe.kyletyree.com/about 301
+/demos/cafe/about/ https://cafe.kyletyree.com/about 301
+/demos/cafe/contact.html https://cafe.kyletyree.com/contact 301
+/demos/cafe/contact https://cafe.kyletyree.com/contact 301
+/demos/cafe/contact/ https://cafe.kyletyree.com/contact 301
+/demos/cafe/menu.html https://cafe.kyletyree.com/menu 301
+/demos/cafe/menu https://cafe.kyletyree.com/menu 301
+/demos/cafe/menu/ https://cafe.kyletyree.com/menu 301
+/demos/cafe/visit.html https://cafe.kyletyree.com/visit 301
+/demos/cafe/visit https://cafe.kyletyree.com/visit 301
+/demos/cafe/visit/ https://cafe.kyletyree.com/visit 301
