@@ -19,7 +19,9 @@ The Python server does not process `_redirects`. To verify Pages routing, run `n
 - `index.html`: landing-page copy and layout.
 - `assets/site.css` and `assets/site.js`: landing-page styles and mobile navigation.
 - `assets/kyle-tyree.png`: owner-supplied profile photo, displayed with CSS cropping.
-- `assets/cover-*-v1.webp`: matching painted portfolio covers for roofing, café, and restaurant. Generated PNG originals are kept in the task outputs; WebP assets retain their 1536 × 1024 dimensions.
+- `assets/work-*-desktop-{640,1280}.webp` and `assets/work-*-mobile-480.webp`: actual desktop and phone captures of the redesigned local demos.
+- `PHOTO-CREDITS.md`: credits and source links for stock photography incorporated in screenshot derivatives.
+- `assets/cover-*-v1.webp` and `assets/preview-*.webp`: retained earlier portfolio covers and previews.
 - `assets/demo-roofing.svg` and `assets/demo-restaurant.jpg`: retained artwork from the earlier covers.
 - `_redirects`: 34 permanent, exact page mappings from the two legacy demo routes to their matching extracted subdomains.
 - `demos/home-services/`: home, services, about, service area, and estimate form.
@@ -61,3 +63,7 @@ The landing page currently uses the existing Gmail address and phone number, wit
 On October 1, 2026, the Pages local runtime parsed all 34 redirect rules. Each route returned 301 with its matching HTTPS destination, both without a query and with `?demo=synthetic&check=1`. All 34 local references across the landing and service pages resolved. The 12 legacy demo files remained byte-for-byte unchanged; the service page changed only its stylesheet URL version.
 
 The landing page was inspected at desktop and 390-pixel mobile widths, including card alignment, mobile navigation, FAQs, and the existing theme toggle. The three existing JavaScript files passed `node --check`. No real form, email, text, or phone submission was made. These focused checks are not a performance benchmark or comprehensive accessibility audit.
+
+## Concept presentations
+
+The selected-work section presents three fictional concepts with the visitor need, design decisions, working demo link, and desktop and phone captures. Commercial terms and the service-details body remain unchanged. Refresh the captures from finished demo pages when changing a concept.
